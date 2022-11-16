@@ -13,10 +13,62 @@ main {
     align-items: center;
 }
 
+/* -------------- header style start------------------ */
+header {
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bars-icon {
+    display: none;
+}
+
+.menu-bar {
+    display: flex;
+    /* background-color: #FB8200; */
+}
+
+.menu>ul {
+    display: flex;
+
+}
+
+.menu>ul>li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+.menu>ul>li>a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.shop-cart .icon {
+    font-size: 40px;
+}
+
+/* -------------- header style end------------------ */
+
 .container {
     width: 1047px;
 
 }
+
+/* ----------------
+influencer section start
+----------------------- */
+.influencer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 100px;
+}
+
 
 /* <!-- -----------------------------
 Online platform's logo css style start 
@@ -118,7 +170,7 @@ Online platform's logo css style end
 
 }
 
-span {
+.info>span {
     font-size: 14px;
     margin-left: 8px;
     color: #5E6366;
