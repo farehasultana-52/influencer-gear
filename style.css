@@ -363,6 +363,10 @@ footer {
 
     }
 
+    .influencer-about>h1 {
+        font-size: 30px;
+    }
+
     .influencer-about>p {
         width: 350px;
     }
