@@ -67,6 +67,35 @@ influencer section start
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 100px;
+    margin-top: 30px;
+}
+
+.influencer-about h1 {
+    font-size: 52px;
+}
+
+.influencer-about p {
+    font-size: 16px;
+}
+
+.btn {
+    background-color: #E02C6D;
+    color: aliceblue;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+}
+
+.btn span i {
+    color: #f4f1f1;
+    font-size: 16px;
+
+}
+
+.influencer-img img {
+    height: 414px;
+    width: 440px;
 }
 
 
@@ -194,5 +223,99 @@ span {
     text-decoration: none;
     font-size: 22px;
     font-weight: 700;
+
+}
+
+/* sign up section start */
+.more-informaion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-section {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.signup-title {
+    text-align: center;
+    margin-right: 50px;
+}
+
+.inline {
+    margin-right: 20px;
+}
+
+.sign-up>input {
+    font-size: 20px;
+    height: 30px;
+}
+
+.sign-up>button {
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(235, 28, 107);
+
+}
+
+.sign-up>a {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.offer-details {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.offer-details:hover {
+    text-decoration: underline;
+}
+
+.offer-details>a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.offer-details>a>span {
+    font-size: 16px;
+    color: #787885;
+}
+
+/* start footer css style */
+
+footer {
+    background-color: black;
+    display: flex;
+
+    justify-content: center;
+
+}
+
+.footer-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-info {
+    color: white;
+    text-align: center;
+}
+
+
+
+.footer-app>i {
+    color: white;
+    margin-right: 10px;
 
 }
