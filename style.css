@@ -1,10 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #f4f1f1;
-
-
 }
-
 
 main {
     display: flex;
@@ -14,6 +11,7 @@ main {
 }
 
 /* -------------- header style start------------------ */
+
 header {
     display: flex;
     justify-content: center;
@@ -56,12 +54,12 @@ nav {
 
 .container {
     width: 1047px;
-
 }
 
 /* ----------------
 influencer section start
 ----------------------- */
+
 .influencer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -99,7 +97,6 @@ influencer section start
     width: 440px;
 }
 
-
 .influencer:hover .influencer-img>img {
     transform: scale(1.3);
     transition: transform 3s;
@@ -114,6 +111,7 @@ influencer section end
 /* <!-- -----------------------------
 Online platform's logo css style start 
 ---------------------------------------------> */
+
 .all-logos {
     display: flex;
     justify-content: space-around;
@@ -164,16 +162,10 @@ Online platform's logo css style end
     flex-direction: column;
 }
 
-/* .product-pic {
-    margin-bottom: 0px;
-    background-color: #FB8200;
-} */
-
 .product-pic img {
     width: 315px;
     height: 256px;
 }
-
 
 .product-name {
     font-size: 28px;
@@ -181,7 +173,6 @@ Online platform's logo css style end
     margin-top: 16px;
     margin-bottom: 2px;
     color: #18191F;
-
 }
 
 .price {
@@ -191,11 +182,6 @@ Online platform's logo css style end
     color: rgba(0, 0, 0, 0.87);
 }
 
-.info {
-    /* margin-bottom: 0%; */
-
-}
-
 
 .fa-star.filled,
 .fa-star-half-stroke {
@@ -203,7 +189,6 @@ Online platform's logo css style end
     height: 10.32px;
     color: #FB8200;
     margin-right: 3px;
-
 }
 
 .info>span {
@@ -222,6 +207,7 @@ Online platform's logo css style end
 /* ---------------end popular section css style -----------*/
 
 /* see more css style */
+
 .see-more {
     display: flex;
     justify-content: flex-end;
@@ -237,6 +223,7 @@ span {
 }
 
 /* sign up section start */
+
 .more-informaion {
     display: flex;
     flex-direction: column;
@@ -307,7 +294,6 @@ footer {
     display: flex;
 
     justify-content: center;
-
 }
 
 .footer-detail {
@@ -398,14 +384,13 @@ footer {
     }
 }
 
-/* Ipad support website */
+/* ipad support website */
 
 @media only screen and (min-width:689px) and (max-width:992px) {
 
     .container {
         width: 100%;
     }
-
 
     .shopping-cards {
         grid-template-columns: repeat(2, 1fr);
